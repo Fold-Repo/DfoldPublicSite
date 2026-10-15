@@ -1,0 +1,188 @@
+[
+    {
+        "slug": "ledgerly-dashboard",
+        "title": "Ledgerly finance dashboard",
+        "client": "Ledgerly",
+        "category": "Web app",
+        "year": "2026",
+        "summary": "A real-time bookkeeping dashboard for small businesses.",
+        "challenge": "Ledgerly's spreadsheets-based workflow couldn't keep up with 4,000 new business sign-ups a month.",
+        "solution": "We designed and built a Next.js dashboard with live bank sync, invoicing and role-based access.",
+        "stack": ["Next.js", "Node.js", "PostgreSQL", "Stripe"],
+        "services": ["Product design", "Web development", "API"],
+        "results": [
+            {
+                "id": "r1",
+                "value": "4x",
+                "label": "Faster month-end close"
+            },
+            {
+                "id": "r2",
+                "value": "18k",
+                "label": "Active businesses"
+            },
+            {
+                "id": "r3",
+                "value": "99.9%",
+                "label": "Uptime"
+            }
+        ],
+        "image": "/images/projects/ledgerly.jpg",
+        "imageAlt": "Laptop showing the Ledgerly analytics dashboard"
+    },
+    {
+        "slug": "kora-beauty-store",
+        "title": "Kora Beauty Shopify theme",
+        "client": "Kora Beauty",
+        "category": "E-commerce",
+        "year": "2026",
+        "summary": "A custom Shopify theme that doubled page speed.",
+        "challenge": "A slow, heavily customised theme was hurting mobile conversions.",
+        "solution": "We rebuilt the theme from scratch with Online Store 2.0 sections and a lean asset pipeline.",
+        "stack": ["Shopify", "Liquid", "Alpine.js"],
+        "services": ["Theme development", "UI design"],
+        "results": [
+            {
+                "id": "r1",
+                "value": "+32%",
+                "label": "Conversion rate"
+            },
+            {
+                "id": "r2",
+                "value": "2.1s",
+                "label": "Mobile load time"
+            },
+            {
+                "id": "r3",
+                "value": "4 wks",
+                "label": "Delivery"
+            }
+        ],
+        "image": "/images/projects/kora.jpg",
+        "imageAlt": "Kora Beauty branded shopping bags"
+    },
+    {
+        "slug": "movr-logistics-app",
+        "title": "Movr delivery app",
+        "client": "Movr",
+        "category": "Mobile",
+        "year": "2025",
+        "summary": "A same-day delivery app for riders and customers.",
+        "challenge": "Movr needed rider and customer apps live before their Series A.",
+        "solution": "We shipped two React Native apps with live tracking, payments and a shared design system.",
+        "stack": ["React Native", "Firebase", "Google Maps"],
+        "services": ["Mobile development", "Product design"],
+        "results": [
+            {
+                "id": "r1",
+                "value": "11 wks",
+                "label": "Idea to app store"
+            },
+            {
+                "id": "r2",
+                "value": "50k",
+                "label": "Downloads"
+            },
+            {
+                "id": "r3",
+                "value": "4.8",
+                "label": "App rating"
+            }
+        ],
+        "image": "/images/projects/movr.jpg",
+        "imageAlt": "Movr app open on a phone next to a laptop"
+    },
+    {
+        "slug": "greenfield-school-site",
+        "title": "Greenfield Academy website",
+        "client": "Greenfield Academy",
+        "category": "Website",
+        "year": "2025",
+        "summary": "A friendly, accessible school website with online admissions.",
+        "challenge": "Parents struggled to find information and apply online.",
+        "solution": "A content-managed site with clear navigation and a step-by-step admissions form.",
+        "stack": ["Next.js", "Sanity", "Vercel"],
+        "services": ["Website", "UX design"],
+        "results": [
+            {
+                "id": "r1",
+                "value": "3x",
+                "label": "Online applications"
+            },
+            {
+                "id": "r2",
+                "value": "100",
+                "label": "Accessibility score"
+            },
+            {
+                "id": "r3",
+                "value": "3 wks",
+                "label": "Delivery"
+            }
+        ],
+        "image": "/images/projects/greenfield.jpg",
+        "imageAlt": "Greenfield staff planning the new website"
+    },
+    {
+        "slug": "tradepoint-marketplace",
+        "title": "Tradepoint B2B marketplace",
+        "client": "Tradepoint",
+        "category": "E-commerce",
+        "year": "2024",
+        "summary": "A wholesale marketplace connecting retailers to suppliers.",
+        "challenge": "Orders were handled over WhatsApp with no stock visibility.",
+        "solution": "A multi-vendor marketplace with bulk ordering, credit terms and supplier dashboards.",
+        "stack": ["Next.js", "NestJS", "PostgreSQL", "Stripe"],
+        "services": ["Web development", "API", "Product design"],
+        "results": [
+            {
+                "id": "r1",
+                "value": "£12m",
+                "label": "GMV in year one"
+            },
+            {
+                "id": "r2",
+                "value": "900+",
+                "label": "Retailers"
+            },
+            {
+                "id": "r3",
+                "value": "60%",
+                "label": "Less manual work"
+            }
+        ],
+        "image": "/images/projects/tradepoint.jpg",
+        "imageAlt": "Tradepoint team in a planning session"
+    },
+    {
+        "slug": "pulse-health-app",
+        "title": "Pulse health tracker",
+        "client": "Pulse Health",
+        "category": "Mobile",
+        "year": "2024",
+        "summary": "A wellness app for tracking habits and booking clinicians.",
+        "challenge": "Pulse wanted a calm, trustworthy app for first-time health users.",
+        "solution": "A simple habit tracker with telehealth bookings and secure messaging.",
+        "stack": ["Flutter", "Node.js", "Twilio"],
+        "services": ["Mobile development", "UX research"],
+        "results": [
+            {
+                "id": "r1",
+                "value": "72%",
+                "label": "30-day retention"
+            },
+            {
+                "id": "r2",
+                "value": "25k",
+                "label": "Monthly users"
+            },
+            {
+                "id": "r3",
+                "value": "4.7",
+                "label": "App rating"
+            }
+        ],
+        "image": "/images/projects/pulse.jpg",
+        "imageAlt": "Two hands joined in support, from the Pulse campaign"
+    }
+]

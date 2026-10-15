@@ -1,26 +1,166 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+    --surface: #f7f8fa;
+    --paper: #eef1f6;
+    --raised: #ffffff;
+    --ink: #0b1220;
+    --muted: #5b6475;
+    --line: #e2e7ef;
+
+    --primary: #1d4ed8;
+    --primary-dark: #1e40af;
+    --primary-tint: #e6eeff;
+    --on-primary: #ffffff;
+
+    --sky: #bcd4ff;
+
+    --tint-sky: #e8efff;
+    --tint-sand: #f3efe8;
+    --tint-mist: #e7ecef;
+
+    color-scheme: light;
+}
+
+[data-theme='dark'] {
+    --surface: #08090d;
+    --paper: #0f1117;
+    --raised: #151821;
+    --ink: #eef1f7;
+    --muted: #959cad;
+    --line: #222634;
+
+    --primary: #6ea8ff;
+    --primary-dark: #8dbbff;
+    --primary-tint: #111c33;
+    --on-primary: #050b1a;
+
+    --sky: #3d5f9e;
+
+    --tint-sky: #121826;
+    --tint-sand: #17171c;
+    --tint-mist: #131a1f;
+
+    color-scheme: dark;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+    --font-sans: var(--font-instrument), ui-sans-serif, system-ui, sans-serif;
+
+    --color-surface: var(--surface);
+    --color-paper: var(--paper);
+    --color-raised: var(--raised);
+    --color-ink: var(--ink);
+    --color-muted: var(--muted);
+    --color-line: var(--line);
+
+    --color-primary: var(--primary);
+    --color-primary-dark: var(--primary-dark);
+    --color-primary-tint: var(--primary-tint);
+    --color-on-primary: var(--on-primary);
+
+    --color-sky: var(--sky);
+    --color-tint-sky: var(--tint-sky);
+    --color-tint-sand: var(--tint-sand);
+    --color-tint-mist: var(--tint-mist);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@theme {
+    --color-night: #070b16;
+    --color-brand-deep: #0b2463;
+    --color-brand-light: #3b6ff5;
+
+    --color-code-bg: #0b0f1a;
+    --color-code-text: #d3dbd6;
+    --color-code-keyword: #c3a6ff;
+    --color-code-fn: #8db8ff;
+    --color-code-string: #f2cc8f;
+
+    --shadow-card: 0 1px 2px rgb(10 18 40 / 0.04), 0 12px 32px -12px rgb(10 18 40 / 0.14);
+    --shadow-float: 0 24px 60px -20px rgb(10 18 40 / 0.3);
+}
+
+@keyframes aurora {
+    0%,
+    100% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    50% {
+        transform: translate(-6%, 4%) scale(1.08);
+    }
+}
+
+@utility aurora-light-top {
+    background: radial-gradient(closest-side, rgb(196 214 255 / 0.55), rgb(80 120 220 / 0.3), transparent);
+}
+
+@utility aurora-light-bottom {
+    background: radial-gradient(closest-side, rgb(70 120 255 / 0.35), transparent);
+}
+
+@utility brand-band {
+    background: radial-gradient(70% 90% at 100% 100%, var(--color-brand-light) 0%, transparent 70%), var(--color-brand-deep);
+}
+
+html.lenis,
+html.lenis body {
+    height: auto;
+}
+
+.lenis.lenis-smooth {
+    scroll-behavior: auto !important;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    background: var(--surface);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+    background: var(--primary);
+    color: white;
+}
+
+@keyframes reveal-up {
+    from {
+        opacity: 0;
+        transform: translateY(24px);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@supports (animation-timeline: view()) {
+    @media (prefers-reduced-motion: no-preference) {
+        .reveal {
+            animation: reveal-up linear both;
+            animation-timeline: view();
+            animation-range: entry 0% entry 60%;
+            animation-delay: var(--reveal-delay, 0ms);
+        }
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
 }

@@ -1,0 +1,80 @@
+[
+    {
+        "slug": "aurora-shopify",
+        "name": "Aurora",
+        "category": "Shopify",
+        "platform": "Shopify OS 2.0",
+        "price": "£180",
+        "summary": "A clean fashion and beauty theme with big imagery.",
+        "description": "Aurora is a fast, image-led Shopify theme for fashion and beauty brands. It ships with 24 sections, quick-buy and a slide-out cart.",
+        "features": ["24 drag-and-drop sections", "Quick-buy and slide-out cart", "Mega menu", "98 mobile Lighthouse score"],
+        "includes": ["Theme files", "Demo content", "Documentation", "1 year of support"],
+        "image": "/images/products/aurora.jpg",
+        "imageAlt": "Aurora theme preview"
+    },
+    {
+        "slug": "harbor-shopify",
+        "name": "Harbor",
+        "category": "Shopify",
+        "platform": "Shopify OS 2.0",
+        "price": "£220",
+        "summary": "Built for large catalogues and wholesale stores.",
+        "description": "Harbor handles big catalogues with powerful filtering, bulk ordering and B2B price lists.",
+        "features": ["Advanced filtering", "Bulk order form", "B2B price lists", "Multi-currency"],
+        "includes": ["Theme files", "Demo content", "Documentation", "1 year of support"],
+        "image": "/images/products/harbor.jpg",
+        "imageAlt": "Harbor theme preview"
+    },
+    {
+        "slug": "nova-nextjs",
+        "name": "Nova",
+        "category": "Next.js",
+        "platform": "Next.js + Tailwind",
+        "price": "£149",
+        "summary": "A SaaS landing page template with dark mode.",
+        "description": "Nova is a polished SaaS marketing template with pricing, blog and docs pages, plus light and dark themes.",
+        "features": ["12 page templates", "Light and dark mode", "MDX blog", "SEO ready"],
+        "includes": ["Source code", "Figma file", "Lifetime updates"],
+        "image": "/images/products/nova.jpg",
+        "imageAlt": "Nova theme preview"
+    },
+    {
+        "slug": "studio-wordpress",
+        "name": "Studio",
+        "category": "WordPress",
+        "platform": "WordPress block theme",
+        "price": "£89",
+        "summary": "A portfolio theme for agencies and freelancers.",
+        "description": "Studio is a block theme for agencies with case-study layouts, team pages and a contact form.",
+        "features": ["Full-site editing", "Case-study templates", "WooCommerce ready", "Translation ready"],
+        "includes": ["Theme files", "Demo import", "Documentation"],
+        "image": "/images/products/studio.jpg",
+        "imageAlt": "Studio theme preview"
+    },
+    {
+        "slug": "atlas-ui-kit",
+        "name": "Atlas UI kit",
+        "category": "UI kit",
+        "platform": "Figma",
+        "price": "£59",
+        "summary": "400+ components for dashboards and web apps.",
+        "description": "Atlas is a Figma UI kit with 400+ components, auto-layout and light and dark variants.",
+        "features": ["400+ components", "Auto-layout everywhere", "Light and dark variants", "Design tokens"],
+        "includes": ["Figma file", "Icon set", "Lifetime updates"],
+        "image": "/images/products/atlas.jpg",
+        "imageAlt": "Atlas UI kit theme preview"
+    },
+    {
+        "slug": "market-nextjs",
+        "name": "Market",
+        "category": "Next.js",
+        "platform": "Next.js + Shopify",
+        "price": "£249",
+        "summary": "A headless storefront starter for Shopify.",
+        "description": "Market is a production-ready headless Shopify storefront with cart, search and account pages.",
+        "features": ["Shopify Storefront API", "Instant search", "Customer accounts", "Edge-ready"],
+        "includes": ["Source code", "Setup guide", "1 year of updates"],
+        "image": "/images/products/market.jpg",
+        "imageAlt": "Market theme preview"
+    }
+]

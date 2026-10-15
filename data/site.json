@@ -1,0 +1,67 @@
+{
+    "name": "Dfoldlab",
+    "tagline": "Software studio",
+    "description": "A London design and engineering studio building websites, web apps and store themes.",
+    "domain": "dfoldlab.com",
+    "twitter": "@dfoldlab",
+    "email": "hello@dfoldlab.com",
+    "phone": "+44 20 0000 0000",
+    "address": "London, United Kingdom",
+    "city": "London",
+    "country": "GB",
+    "nav": [
+        { "label": "Services", "href": "#services" },
+        { "label": "Work", "href": "#work" },
+        { "label": "Shop", "href": "#shop" },
+        { "label": "Team", "href": "#team" },
+        { "label": "FAQ", "href": "#faq" }
+    ],
+    "contactLink": { "label": "Start a project", "href": "#contact" },
+    "socials": [
+        { "id": "linkedin", "label": "LinkedIn", "href": "https://linkedin.com" },
+        { "id": "x", "label": "X", "href": "https://x.com" },
+        { "id": "instagram", "label": "Instagram", "href": "https://instagram.com" },
+        { "id": "github", "label": "GitHub", "href": "https://github.com" }
+    ],
+    "footer": {
+        "contactTitle": "Contact",
+        "columns": [
+            {
+                "title": "Studio",
+                "links": [
+                    { "label": "Services", "href": "#services" },
+                    { "label": "Work", "href": "#work" },
+                    { "label": "Team", "href": "#team" }
+                ]
+            },
+            {
+                "title": "Products",
+                "links": [
+                    { "label": "Store themes", "href": "#shop" },
+                    { "label": "Website templates", "href": "#shop" },
+                    { "label": "Design kits", "href": "#shop" }
+                ]
+            },
+            {
+                "title": "Help",
+                "links": [
+                    { "label": "FAQ", "href": "#faq" },
+                    { "label": "Start a project", "href": "#contact" },
+                    { "label": "Email us", "href": "mailto:hello@dfoldlab.com" }
+                ]
+            }
+        ]
+    },
+    "labels": {
+        "mainNav": "Main",
+        "mobileNav": "Mobile",
+        "toggleTheme": "Toggle light and dark theme",
+        "previous": "Previous",
+        "next": "Next"
+    },
+    "og": {
+        "title": "Software that moves",
+        "accent": "your business forward.",
+        "subtitle": "Design & engineering studio"
+    }
+}

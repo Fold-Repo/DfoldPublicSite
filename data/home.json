@@ -1,0 +1,419 @@
+{
+    "hero": {
+        "badge": "Booking projects for early 2027",
+        "title": "Software that moves your business forward",
+        "body": "Dfoldlab is a design and engineering studio based in London. We build websites, web apps and store themes for founders and growing teams.",
+        "primaryCta": {
+            "label": "Start a project",
+            "href": "#contact"
+        },
+        "secondaryCta": {
+            "label": "See our work",
+            "href": "#work"
+        },
+        "nodes": [
+            {
+                "id": "n1",
+                "label": "Ledgerly",
+                "value": "18k businesses",
+                "position": "top-left"
+            },
+            {
+                "id": "n2",
+                "label": "Kora Beauty",
+                "value": "+32% sales",
+                "position": "top-right"
+            },
+            {
+                "id": "n3",
+                "label": "Movr",
+                "value": "50k downloads",
+                "position": "bottom-left"
+            },
+            {
+                "id": "n4",
+                "label": "Greenfield",
+                "value": "3× applications",
+                "position": "bottom-right"
+            }
+        ],
+        "avatars": ["/images/team/samuel.jpg", "/images/team/ife.jpg", "/images/team/david.jpg", "/images/team/grace.jpg"],
+        "stats": [
+            {
+                "id": "s1",
+                "value": 120,
+                "suffix": "+",
+                "label": "Projects shipped since 2020"
+            },
+            {
+                "id": "s2",
+                "value": 94,
+                "suffix": "%",
+                "label": "Clients who came back for more"
+            },
+            {
+                "id": "s3",
+                "value": 9,
+                "suffix": "",
+                "label": "Countries we've shipped to"
+            }
+        ],
+        "badgeTag": "Open"
+    },
+    "services": {
+        "eyebrow": "What we do",
+        "title": "Everything your product needs,",
+        "accent": "built by one team",
+        "body": "Scroll through what we do — design, development and support from one small senior team.",
+        "items": [
+            {
+                "id": "web",
+                "screen": "dashboard",
+                "title": "Websites & web apps",
+                "description": "Marketing sites, dashboards and SaaS products built with Next.js. Fast, accessible, and easy for your team to take over.",
+                "image": "/images/services/web.jpg",
+                "imageAlt": "Developer working across two monitors"
+            },
+            {
+                "id": "themes",
+                "screen": "product",
+                "title": "Store themes that sell",
+                "description": "Custom Shopify, WordPress and Webflow themes that match your brand and load in under two seconds on mobile.",
+                "image": "/images/services/themes.jpg",
+                "imageAlt": "Shop owner handing a package to a customer"
+            },
+            {
+                "id": "mobile",
+                "screen": "notification",
+                "title": "Mobile apps",
+                "description": "React Native and Flutter apps for iOS and Android, shipped to both stores with payments and push notifications.",
+                "image": "/images/services/mobile.jpg",
+                "imageAlt": "Person testing a mobile app beside a laptop"
+            },
+            {
+                "id": "design",
+                "screen": "palette",
+                "title": "Product & brand design",
+                "description": "Research, wireframes and polished interfaces, tested with real users before a single line of code.",
+                "image": "/images/services/design.jpg",
+                "imageAlt": "Designer sketching wireframes on a tablet"
+            },
+            {
+                "id": "payments",
+                "screen": "payment",
+                "title": "Payments & integrations",
+                "description": "Stripe, PayPal and GoCardless payments, secure APIs and the tools your business already runs on.",
+                "image": "/images/projects/tradepoint.jpg",
+                "imageAlt": "Team planning an integration together"
+            }
+        ]
+    },
+    "work": {
+        "eyebrow": "Selected work",
+        "title": "Projects we're proud of",
+        "body": "A few products we've designed, built and launched with our clients."
+    },
+    "shop": {
+        "eyebrow": "Theme shop",
+        "title": "Ready-made themes",
+        "body": "Premium themes, templates and UI kits built by our team. Buy once, use forever — or we'll set it up for you.",
+        "categories": ["All", "Shopify", "Next.js", "WordPress", "UI kit"]
+    },
+    "team": {
+        "eyebrow": "Our team",
+        "title": "People who care",
+        "accent": "about the details",
+        "body": "Designers and engineers you talk to directly — not account managers.",
+        "members": [
+            {
+                "id": "m1",
+                "name": "Samuel Adeyemi",
+                "role": "Founder & Lead Engineer",
+                "image": "/images/team/samuel.jpg"
+            },
+            {
+                "id": "m2",
+                "name": "Ife Okafor",
+                "role": "Head of Design",
+                "image": "/images/team/ife.jpg"
+            },
+            {
+                "id": "m3",
+                "name": "David Eze",
+                "role": "Frontend Engineer",
+                "image": "/images/team/david.jpg"
+            },
+            {
+                "id": "m4",
+                "name": "Grace Musa",
+                "role": "Theme Developer",
+                "image": "/images/team/grace.jpg"
+            }
+        ]
+    },
+    "testimonials": {
+        "eyebrow": "Kind words",
+        "title": "Recent feedback from our clients",
+        "items": [
+            {
+                "id": "t1",
+                "quote": "Dfoldlab rebuilt our store theme in four weeks. Page speed doubled, conversions went up 32%, and our team can finally edit the homepage without a developer.",
+                "name": "Amaka Obi",
+                "role": "Founder, Kora Beauty",
+                "image": "/images/clients/amaka.jpg"
+            },
+            {
+                "id": "t2",
+                "quote": "Clear updates every Friday, honest timelines, and a dashboard our customers actually enjoy. We've already started our second project with them.",
+                "name": "Tunde Bello",
+                "role": "CTO, Ledgerly",
+                "image": "/images/clients/tunde.jpg"
+            },
+            {
+                "id": "t3",
+                "quote": "From a sketch on a napkin to both app stores in under three months. Our riders love the app, and so do our investors.",
+                "name": "Sarah Mensah",
+                "role": "COO, Movr",
+                "image": "/images/clients/sarah.jpg"
+            }
+        ]
+    },
+    "faq": {
+        "eyebrow": "FAQ",
+        "title": "You have questions,",
+        "accent": "we have answers",
+        "items": [
+            {
+                "id": "f1",
+                "question": "How long does a project take?",
+                "answer": "A marketing site takes 2–4 weeks, a store theme 3–6 weeks and a web app 8–16 weeks, depending on scope."
+            },
+            {
+                "id": "f2",
+                "question": "How much does it cost?",
+                "answer": "Theme projects start from £1,500 and web apps from £8,000. After a short call we send a fixed quote."
+            },
+            {
+                "id": "f3",
+                "question": "Do you work with clients outside the UK?",
+                "answer": "Yes. We work with teams across the UK, Europe and North America, on-site in London or fully remote."
+            },
+            {
+                "id": "f4",
+                "question": "Do you offer support after launch?",
+                "answer": "Every project includes 30 days of free support, and monthly care plans after that."
+            },
+            {
+                "id": "f5",
+                "question": "Can you install a theme from the shop for me?",
+                "answer": "Yes. We'll install it, add your branding and content, and hand it over ready to sell."
+            }
+        ]
+    },
+    "contact": {
+        "eyebrow": "Contact us",
+        "title": "Let's talk about",
+        "accent": "your project",
+        "body": "Fill in the form or reach us directly. We reply within one business day with next steps and a rough estimate.",
+        "services": ["Website", "Web app", "Mobile app", "Store theme", "Product design", "Not sure yet"],
+        "submit": "Send message",
+        "note": "Opens your email app with your message ready to send.",
+        "details": [
+            {
+                "id": "email",
+                "label": "Email",
+                "value": "hello@dfoldlab.com",
+                "href": "mailto:hello@dfoldlab.com"
+            },
+            {
+                "id": "phone",
+                "label": "Phone",
+                "value": "+44 20 0000 0000",
+                "href": "tel:+442000000000"
+            },
+            {
+                "id": "office",
+                "label": "Studio",
+                "value": "London, United Kingdom — working with clients worldwide"
+            }
+        ],
+        "form": {
+            "name": {
+                "label": "Full name",
+                "placeholder": "Jane Smith"
+            },
+            "email": {
+                "label": "Email",
+                "placeholder": "jane@company.co.uk"
+            },
+            "company": {
+                "label": "Company",
+                "optional": "(optional)",
+                "placeholder": "Company or project name"
+            },
+            "service": {
+                "label": "What do you need?",
+                "placeholder": "Select a service"
+            },
+            "message": {
+                "label": "Tell us about your project",
+                "placeholder": "What are you building, who is it for, and when do you need it?"
+            }
+        }
+    },
+    "cta": {
+        "title": "Ready to build something people love?",
+        "body": "Leave your email and we'll book a free 30-minute call to talk through your idea.",
+        "placeholder": "Enter your email",
+        "submit": "Book a call"
+    },
+    "approach": {
+        "eyebrow": "Working with us",
+        "title": "No black boxes.",
+        "accent": "You see everything.",
+        "cards": [
+            {
+                "id": "quote",
+                "tone": "sky",
+                "title": "A fixed quote, up front",
+                "description": "One call, then a clear scope and a fixed price. No hourly surprises."
+            },
+            {
+                "id": "demo",
+                "tone": "sand",
+                "title": "Demo every Friday",
+                "description": "Real, working progress every week — and you tell us what to change."
+            },
+            {
+                "id": "preview",
+                "tone": "mist",
+                "title": "A live link from day one",
+                "description": "Follow along on a private preview link that updates every time we ship."
+            }
+        ]
+    },
+    "delivery": {
+        "eyebrow": "How we deliver",
+        "title": "A partner from first idea",
+        "accent": "to long after launch",
+        "body": "Clear milestones, one point of contact and honest updates. You always know where your project stands and what happens next.",
+        "steps": [
+            {
+                "id": "d1",
+                "title": "Discovery & strategy",
+                "description": "We learn your business, define the scope and agree on a fixed plan."
+            },
+            {
+                "id": "d2",
+                "title": "Design & approval",
+                "description": "You review and approve every screen before development begins."
+            },
+            {
+                "id": "d3",
+                "title": "Build & quality checks",
+                "description": "Weekly progress reviews, tested on real devices before release."
+            },
+            {
+                "id": "d4",
+                "title": "Launch & ongoing care",
+                "description": "A smooth go-live, team training and support whenever you need it."
+            }
+        ],
+        "project": {
+            "client": "Ledgerly",
+            "name": "Customer portal",
+            "progress": 72,
+            "milestones": [
+                {
+                    "id": "m1",
+                    "label": "Discovery workshop",
+                    "date": "3 Sep",
+                    "status": "done"
+                },
+                {
+                    "id": "m2",
+                    "label": "Designs approved",
+                    "date": "17 Sep",
+                    "status": "done"
+                },
+                {
+                    "id": "m3",
+                    "label": "Beta with 50 customers",
+                    "date": "15 Oct",
+                    "status": "current"
+                },
+                {
+                    "id": "m4",
+                    "label": "Public launch",
+                    "date": "5 Nov",
+                    "status": "upcoming"
+                }
+            ],
+            "manager": {
+                "name": "Zainab Lawal",
+                "role": "Your project manager",
+                "image": "/images/team/zainab.jpg"
+            },
+            "status": "On track",
+            "progressLabel": "Overall progress",
+            "updateTag": "Weekly update · Fri"
+        }
+    },
+    "mockups": {
+        "quote": {
+            "title": "Quote #0142 · Ledgerly",
+            "lines": [
+                ["Design · 12 screens", "£2,400"],
+                ["Development", "£5,100"],
+                ["Launch & support", "£500"]
+            ],
+            "totalLabel": "Fixed total",
+            "total": "£8,000"
+        },
+        "demo": {
+            "time": "Friday · 3:00 PM",
+            "title": "Sprint 4 demo — checkout flow",
+            "team": ["samuel", "ife", "david"],
+            "action": "Join call"
+        },
+        "preview": {
+            "url": "preview.dfoldlab.com/kora",
+            "updates": [
+                ["New product page", "2m ago"],
+                ["Faster cart drawer", "1h ago"]
+            ]
+        },
+        "dashboard": {
+            "label": "Revenue this month",
+            "value": "£84,200",
+            "change": "+18%"
+        },
+        "notification": {
+            "appInitial": "M",
+            "app": "MOVR · now",
+            "title": "Your rider is 3 minutes away",
+            "body": "Tom is on Shoreditch High Street with your order.",
+            "followUp": "Delivered · Rate your rider ★★★★★"
+        },
+        "palette": {
+            "label": "Brand colours",
+            "sample": "Aa",
+            "font": "Instrument Sans",
+            "weight": "Medium · 500"
+        },
+        "payment": {
+            "title": "Payment successful",
+            "amount": "£1,250.00",
+            "rows": [
+                ["Paid with", "Stripe · Visa"],
+                ["Reference", "TP-20481"]
+            ]
+        },
+        "product": {
+            "tag": "New in",
+            "name": "Glow Serum",
+            "price": "£24.00",
+            "action": "Add to cart"
+        }
+    }
+}
