@@ -3,12 +3,9 @@
 import { useState } from 'react'
 import { ArrowUpRight } from 'lucide-react'
 import { FilterTabs, Media } from '@/components'
-import { SITE } from '@/constants'
 import { HOME, PRODUCTS } from '@/data'
 
 const ALL = 'All'
-
-const buyLink = (name: string) => `mailto:${SITE.email}?subject=${encodeURIComponent(`Buy ${name}`)}`
 
 export function ShopGrid() {
     const [category, setCategory] = useState(ALL)
@@ -21,8 +18,8 @@ export function ShopGrid() {
 
             <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {products.map((product) => (
-                    <a key={product.slug} href={buyLink(product.name)} className="group flex flex-col rounded-[1.75rem] bg-raised p-2.5">
-                        <div className="relative">
+                    <article key={product.slug} className="group flex flex-col rounded-[1.75rem] bg-raised p-2.5">
+                        <a href={product.href} target="_blank" rel="noopener noreferrer" aria-label={`${product.name} ${HOME.shop.demo}`} className="relative">
                             <Media
                                 src={product.image}
                                 alt={product.imageAlt}
@@ -36,18 +33,34 @@ export function ShopGrid() {
                             <span className="absolute top-3 right-3 grid size-9 place-items-center rounded-full bg-white text-night transition-transform group-hover:rotate-45">
                                 <ArrowUpRight aria-hidden className="size-4" />
                             </span>
-                        </div>
+                        </a>
 
-                        <div className="flex items-end justify-between gap-4 px-3 pt-4 pb-3">
+                        <div className="flex flex-1 flex-col gap-5 px-3 pt-4 pb-3">
                             <div>
                                 <h3 className="text-lg font-medium">{product.name}</h3>
 
                                 <p className="mt-0.5 text-sm text-muted">{product.platform}</p>
                             </div>
 
-                            <p className="rounded-full bg-paper px-3 py-1 text-sm font-medium">{product.price}</p>
+                            <div className="mt-auto grid grid-cols-2 gap-2">
+                                <a
+                                    href={product.docs}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="rounded-full border border-line px-4 py-2.5 text-center text-sm font-medium transition-colors hover:bg-paper">
+                                    {HOME.shop.docs}
+                                </a>
+
+                                <a
+                                    href={product.href}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="rounded-full bg-primary px-4 py-2.5 text-center text-sm font-medium text-on-primary transition-opacity hover:opacity-90">
+                                    {HOME.shop.demo}
+                                </a>
+                            </div>
                         </div>
-                    </a>
+                    </article>
                 ))}
             </div>
         </>

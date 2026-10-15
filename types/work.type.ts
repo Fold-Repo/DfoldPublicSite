@@ -19,7 +19,8 @@ export type Product = Photo & {
     name: string
     category: string
     platform: string
-    price: string
+    href: string
+    docs: string
     summary: string
     description: string
     features: string[]

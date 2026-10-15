@@ -5,39 +5,39 @@
         "body": "Dfoldlab is a design and engineering studio based in London. We build websites, web apps and store themes for founders and growing teams.",
         "primaryCta": {
             "label": "Start a project",
-            "href": "#contact"
+            "href": "https://app.dfoldlab.co.uk/"
         },
         "secondaryCta": {
-            "label": "See our work",
-            "href": "#work"
+            "label": "See our themes",
+            "href": "#shop"
         },
         "nodes": [
             {
                 "id": "n1",
-                "label": "Ledgerly",
-                "value": "18k businesses",
+                "label": "Web apps",
+                "value": "Dashboards & portals",
                 "position": "top-left"
             },
             {
                 "id": "n2",
-                "label": "Kora Beauty",
-                "value": "+32% sales",
+                "label": "Store themes",
+                "value": "Ruby & Fold",
                 "position": "top-right"
             },
             {
                 "id": "n3",
-                "label": "Movr",
-                "value": "50k downloads",
+                "label": "Mobile apps",
+                "value": "iOS & Android",
                 "position": "bottom-left"
             },
             {
                 "id": "n4",
-                "label": "Greenfield",
-                "value": "3× applications",
+                "label": "Product design",
+                "value": "Research to launch",
                 "position": "bottom-right"
             }
         ],
-        "avatars": ["/images/team/samuel.jpg", "/images/team/ife.jpg", "/images/team/david.jpg", "/images/team/grace.jpg"],
+        "avatars": ["/images/team/samuel-ogunwole.jpg", "/images/team/bolaji.jpg", "/images/team/samuel-olufemi.jpg", "/images/team/adeoye.jpg"],
         "stats": [
             {
                 "id": "s1",
@@ -111,13 +111,16 @@
     "work": {
         "eyebrow": "Selected work",
         "title": "Projects we're proud of",
-        "body": "A few products we've designed, built and launched with our clients."
+        "body": "A few products we've designed, built and launched with our clients.",
+        "cta": { "label": "Start a similar project", "href": "https://app.dfoldlab.co.uk/" }
     },
     "shop": {
         "eyebrow": "Theme shop",
         "title": "Ready-made themes",
-        "body": "Premium themes, templates and UI kits built by our team. Buy once, use forever — or we'll set it up for you.",
-        "categories": ["All", "Shopify", "Next.js", "WordPress", "UI kit"]
+        "body": "Store themes built by our team. Explore the live demos, then launch with us or on your own.",
+        "categories": ["All", "E-commerce", "Documentation"],
+        "demo": "Live demo",
+        "docs": "Documentation"
     },
     "team": {
         "eyebrow": "Our team",
@@ -126,28 +129,28 @@
         "body": "Designers and engineers you talk to directly — not account managers.",
         "members": [
             {
+                "id": "m0",
+                "name": "Samuel Ogunwole",
+                "role": "Managing Director",
+                "image": "/images/team/samuel-ogunwole.jpg"
+            },
+            {
                 "id": "m1",
-                "name": "Samuel Adeyemi",
-                "role": "Founder & Lead Engineer",
-                "image": "/images/team/samuel.jpg"
+                "name": "Bolaji Olayinka",
+                "role": "Head of Engineering",
+                "image": "/images/team/bolaji.jpg"
             },
             {
                 "id": "m2",
-                "name": "Ife Okafor",
-                "role": "Head of Design",
-                "image": "/images/team/ife.jpg"
+                "name": "Samuel Olufemi",
+                "role": "Head of Marketing",
+                "image": "/images/team/samuel-olufemi.jpg"
             },
             {
                 "id": "m3",
-                "name": "David Eze",
-                "role": "Frontend Engineer",
-                "image": "/images/team/david.jpg"
-            },
-            {
-                "id": "m4",
-                "name": "Grace Musa",
-                "role": "Theme Developer",
-                "image": "/images/team/grace.jpg"
+                "name": "Adeoye Solomon",
+                "role": "Senior Frontend Engineer",
+                "image": "/images/team/adeoye.jpg"
             }
         ]
     },
@@ -222,19 +225,19 @@
             {
                 "id": "email",
                 "label": "Email",
-                "value": "hello@dfoldlab.com",
-                "href": "mailto:hello@dfoldlab.com"
+                "value": "Admin@dfoldlab.com",
+                "href": "mailto:Admin@dfoldlab.com"
             },
             {
                 "id": "phone",
                 "label": "Phone",
-                "value": "+44 20 0000 0000",
-                "href": "tel:+442000000000"
+                "value": "+49 790 086 3747",
+                "href": "tel:+497900863747"
             },
             {
                 "id": "office",
                 "label": "Studio",
-                "value": "London, United Kingdom — working with clients worldwide"
+                "value": "C/O Aacsl Accountants Limited, 1st Floor, North Westgate House, Harlow, United Kingdom, CM20 1YS"
             }
         ],
         "form": {
@@ -350,9 +353,9 @@
                 }
             ],
             "manager": {
-                "name": "Zainab Lawal",
-                "role": "Your project manager",
-                "image": "/images/team/zainab.jpg"
+                "name": "Samuel Ogunwole",
+                "role": "Managing Director",
+                "image": "/images/team/samuel-ogunwole.jpg"
             },
             "status": "On track",
             "progressLabel": "Overall progress",
@@ -373,7 +376,7 @@
         "demo": {
             "time": "Friday · 3:00 PM",
             "title": "Sprint 4 demo — checkout flow",
-            "team": ["samuel", "ife", "david"],
+            "team": ["samuel-ogunwole", "bolaji", "adeoye"],
             "action": "Join call"
         },
         "preview": {

@@ -19,7 +19,7 @@ export function buildOrganizationSchema(origin: string) {
             addressCountry: SITE.country,
         },
         areaServed: 'Worldwide',
-        sameAs: SOCIAL_LINKS.map((social) => social.href),
+        sameAs: SOCIAL_LINKS.map((social) => social.href).filter((href) => href !== '#'),
     }
 }
 

@@ -6,7 +6,7 @@ import { HOME, PROJECTS } from '@/data'
 const SHOWN = 3
 
 export function Work() {
-    const { body, ...heading } = HOME.work
+    const { body, cta, ...heading } = HOME.work
 
     return (
         <Section id="work">
@@ -20,7 +20,7 @@ export function Work() {
                 {PROJECTS.slice(0, SHOWN).map((project) => (
                     <Link
                         key={project.slug}
-                        href="#contact"
+                        href={cta.href}
                         className="group relative isolate flex min-h-120 flex-1 flex-col justify-between overflow-hidden rounded-4xl p-6 text-white transition-[flex-grow] duration-700 ease-out sm:p-8 hover:lg:flex-[1.8]!">
                         <Media
                             src={project.image}
@@ -59,7 +59,7 @@ export function Work() {
                             <p className="mt-3 max-w-sm text-white/75">{project.summary}</p>
 
                             <span className="mt-6 inline-flex items-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-medium text-night">
-                                Start a similar project
+                                {cta.label}
                             </span>
                         </div>
                     </Link>

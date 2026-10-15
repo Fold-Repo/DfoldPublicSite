@@ -4,24 +4,23 @@
     "description": "A London design and engineering studio building websites, web apps and store themes.",
     "domain": "dfoldlab.com",
     "twitter": "@dfoldlab",
-    "email": "hello@dfoldlab.com",
-    "phone": "+44 20 0000 0000",
-    "address": "London, United Kingdom",
-    "city": "London",
+    "email": "admin@dfoldlab.com",
+    "phone": "+49 790 086 3747",
+    "address": "C/O Aacsl Accountants Limited, 1st Floor, North Westgate House, Harlow, United Kingdom, CM20 1YS",
+    "city": "Harlow",
     "country": "GB",
     "nav": [
         { "label": "Services", "href": "#services" },
-        { "label": "Work", "href": "#work" },
         { "label": "Shop", "href": "#shop" },
         { "label": "Team", "href": "#team" },
         { "label": "FAQ", "href": "#faq" }
     ],
-    "contactLink": { "label": "Start a project", "href": "#contact" },
+    "contactLink": { "label": "Start a project", "href": "https://app.dfoldlab.co.uk/" },
     "socials": [
-        { "id": "linkedin", "label": "LinkedIn", "href": "https://linkedin.com" },
-        { "id": "x", "label": "X", "href": "https://x.com" },
-        { "id": "instagram", "label": "Instagram", "href": "https://instagram.com" },
-        { "id": "github", "label": "GitHub", "href": "https://github.com" }
+        { "id": "linkedin", "label": "LinkedIn", "href": "#" },
+        { "id": "x", "label": "X", "href": "#" },
+        { "id": "instagram", "label": "Instagram", "href": "#" },
+        { "id": "github", "label": "GitHub", "href": "#" }
     ],
     "footer": {
         "contactTitle": "Contact",
@@ -30,7 +29,6 @@
                 "title": "Studio",
                 "links": [
                     { "label": "Services", "href": "#services" },
-                    { "label": "Work", "href": "#work" },
                     { "label": "Team", "href": "#team" }
                 ]
             },
@@ -46,8 +44,8 @@
                 "title": "Help",
                 "links": [
                     { "label": "FAQ", "href": "#faq" },
-                    { "label": "Start a project", "href": "#contact" },
-                    { "label": "Email us", "href": "mailto:hello@dfoldlab.com" }
+                    { "label": "Start a project", "href": "https://app.dfoldlab.co.uk/" },
+                    { "label": "Email us", "href": "mailto:Admin@dfoldlab.com" }
                 ]
             }
         ]

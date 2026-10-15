@@ -123,8 +123,8 @@ export type HomePage = {
         steps: ValuePoint[]
         project: DeliveryProject
     }
-    work: Heading
-    shop: Heading & { categories: string[] }
+    work: Heading & { cta: CtaLink }
+    shop: Heading & { categories: string[]; demo: string; docs: string }
     team: Heading & { members: TeamMember[] }
     testimonials: Heading & { items: Testimonial[] }
     faq: Heading & { items: FaqItem[] }

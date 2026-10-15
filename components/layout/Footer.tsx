@@ -23,7 +23,7 @@ export function Footer() {
                             <li key={social.id}>
                                 <a
                                     href={social.href}
-                                    target="_blank"
+                                    target={social.href === '#' ? undefined : '_blank'}
                                     rel="noreferrer"
                                     aria-label={social.label}
                                     className="grid size-10 place-items-center rounded-full border border-line text-muted transition-colors hover:border-ink hover:text-ink">

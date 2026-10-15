@@ -1,4 +1,4 @@
-import { Approach, Contact, Delivery, Faq, Hero, Services, Shop, Team, Testimonials, Work } from './sections'
+import { Approach, Contact, Delivery, Faq, Hero, Services, Shop, Team, Testimonials } from './sections'
 
 const HomeView = () => {
     return (
@@ -8,8 +8,6 @@ const HomeView = () => {
             <Services />
 
             <Approach />
-
-            <Work />
 
             <Delivery />
 
